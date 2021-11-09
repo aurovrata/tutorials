@@ -60,3 +60,11 @@ function filter_taxonomy_terms($query, $cf7_id, $taxonomy, $field, $cf7_key, $br
   }
   return $query;
 }
+
+//child theme bookeeping.
+add_action( 'wp_enqueue_scripts', 'wpg_frontend_style',20 );
+function wpg_frontend_style(){
+  wp_enqueue_style( 'twenty-nineteen-css', get_template_directory_uri() . '/style.css' );
+  $theme_folder = get_stylesheet_directory_uri();
+  // wp_enqueue_style('wpg-frontend-css', $theme_folder.'/css/main.css');
+}
