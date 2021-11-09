@@ -1,0 +1,31 @@
+#course-table h2 {
+  font-size: 1.6rem;
+}
+#course-table {
+  max-width: 1000px;
+  margin: 0 auto;
+}
+.cf7-sg-table-button a {
+  margin-left: 5px;
+}
+#link-table .cf7-sg-table-button {
+  margin-bottom: 15px;
+}      
+.row.chapter,.row.page {
+  display: flex !important;
+  border-bottom: solid 1px grey;
+  padding-bottom: 4px;
+}
+.row.chapter > .columns > .row.page:last-child {
+	border-bottom: none;
+	padding-bottom: 0;
+}
+.chapter > .columns, .page > .columns{position:relative}
+.chapter > .columns > p,.page >.columns > p {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+                                                

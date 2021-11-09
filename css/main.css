@@ -1,0 +1,16 @@
+/* #site-navigation {
+    display: inline-block;
+    margin-left: 5vw;
+} */
+.site-logo .custom-logo-link:hover, .site-logo .custom-logo-link:active, .site-logo .custom-logo-link:focus {
+	box-shadow: -2px 2px 4px 0px #0073aa;
+}
+.site-header {
+	padding: 1rem 0;
+}
+.entry .entry-header {
+	margin: 1rem calc(10% + 60px) 1rem;
+}
+#main > article {
+	min-height: 66vh;
+}

@@ -1,0 +1,17 @@
+.toggle.windows{
+  width:100px;
+  height:25px;
+}
+.toggle.linux{
+  width:80px;
+  height:25px;
+}
+.toggle.mac{
+  width:60px;
+  height:25px;
+}
+.toggle.linux .toggle-on.active,
+.toggle.windows .toggle-on.active{
+  font-weight: bold;
+  font-size: 18px;
+}            
